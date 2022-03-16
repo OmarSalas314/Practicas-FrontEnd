@@ -1,0 +1,240 @@
+*{
+    font-family: 'preconnect';
+}
+
+.header__barra {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #2C4CCA;
+}
+
+.navegacion__link{
+    text-decoration: none;
+    color: #77849A;
+    padding: 30px;
+}
+
+#doscont{
+    display: flex;
+    flex-direction: row;
+}
+
+.HoaxBuster {
+    color: white;
+    font-size: 20px;
+    background-color: #2C4CCA;
+    padding: 15px;
+    text-decoration: none;
+} 
+
+#fight {
+    font-size: 40px;
+    color: #1f3e72;
+
+}
+
+.h2{
+    font-size: 400px;
+}
+
+.dos_col_y_img {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #77849b;
+    margin: 10px 40px;
+}
+
+#lestop{
+    color: #77849b;
+    margin-right: 40px;
+}
+.imagenes_vacunas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+}
+
+#imgvac {
+    padding: 40px;
+}
+
+.horariovac {
+    position: absolute;
+    right: 50%;
+    top: 520px;
+    background-color: #fff;
+    padding: 10px;
+    color: #707e96;
+}
+
+.horariovactab {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.should_vaccine {
+    position: relative;    
+    left: 30%;
+    align-items: center;
+    text-align: left;
+}
+
+.parrafo {
+    font-size: 15px;
+    color: #77849A;
+}
+
+.four_table {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: #2C4CCA; 
+    text-align: center; 
+}
+
+.dos_col_img2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.articulo1 {
+    padding: 50px;
+    font-size: 20px;
+}
+#parrafor_vacunas1{
+    font-size: 30px;
+    color: #294678;
+}
+
+#parrafor_vacunas2 {
+    color: #1f3e72;
+}
+
+#icon5 {
+    color: #1f3e72;
+}
+
+.tabla_four {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content:center;
+         
+}
+
+.tab4 {
+    border: 5px rgb(226, 219, 219) solid;
+    border-radius: 30px;
+    padding: 10px;
+    width: auto;
+    height: 200px;
+    margin: 50px;
+       
+}
+
+.emergencia_y_img3{
+    display: flex;
+    align-items: left;
+    justify-content:left;
+    padding-left: 30%;
+}
+
+#emegerncy {
+    color: #707e96;
+    font-size: 15px;
+    text-align: cen;
+    line-height: 25px;
+    
+}
+
+#emegerncy{
+    align-items: flex-start;
+
+}
+
+.tab_img {
+    display: grid;
+    grid-template-columns: 250px 250px 500px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    text-align: center;
+        
+}
+
+.tab_img div{
+    color: #1f3e72;
+    font-size: large;
+}
+
+.item3 {
+    grid-area: 1 / 3 / 3 / 4;  
+}
+
+.item1 {
+    border: 2px solid #cad0db;
+    height: 150px;
+    width: 200px;
+} 
+
+.item2 {
+    border: 2px solid #cad0db;
+    height: 150px;
+    width: 200px;
+} 
+
+.item4 {
+    border: 2px solid #cad0db;
+    height: 150px;
+    width: 200px;
+} 
+.item5 {
+    border: 2px solid #cad0db;
+    height: 150px;
+    width: 200px;
+} 
+
+.footer {
+    display: grid;
+    grid-template-columns: 500px auto auto auto;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-color: #eef3ff;
+}
+
+.footer div{
+    padding-left: 30px;
+    color: #707e96;
+    font-size: 20px;
+}
+
+.last {
+    display: grid;
+    grid-template-columns: 500px auto 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #eef3ff;
+
+}
+
+.last div{
+    color: #707e96;
+    font-size: 20px;
+    padding-top: 100px;
+}
+.priv {
+    padding-left: 80px;
+}
+
+
+
+
