@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=Pokedex LaunchX, initial-scale=1.0">
+    <title>PokedexLaunchX</title>
+    <link rel="stylesheet" href="./pokedexLaunchX.css">       
+    <link href="http://fonts.cdnfonts.com/css/granapadano" rel="stylesheet">
+                
+
+</head>
+<body data-poke-container class="grid-container">
+    <div class="namepokemon">
+        <div data-poke-id></div>  
+        <div data-poke-namec></div>        
+    </div>
+    <div class="img">
+        <div data-poke-img-container class="img-container">
+        <img data-poke-img class="poke-img" src="./imagen/pngwing.com.png" width="80%" height="80%">
+    </div>
+    </div>
+    <div class="tipo">
+                 <div data-poke-types class="poke-types"></div>
+    </div>
+    <article class="skill">                
+        <div data-poke-abilities class="poke-abilities"></div>
+    </article>    
+    <div class="stats">
+            <div data-poke-stats class="poke-stats"></div>
+    </div>
+        <div class="statsnumber">
+            <div data-poke-stats-number class="poke-stats-number"></div>
+    </div> 
+              
+    <header class="header">
+        <h1>Who's That Pokémon?</h1>
+        <input type="text" placeholder="Pokemon" id="pokeName" name="pokeName"><br>
+        <button onclick="fetchPokemon()">Search</button>          
+    </header>   
+    <footer class="footer">
+        <script src="./pokedexLaunchX.js"></script>
+    </footer> 
+</body>
+
+</html>

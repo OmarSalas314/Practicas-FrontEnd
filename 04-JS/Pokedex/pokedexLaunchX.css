@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet");
+
+*{
+    box-sizing: border-box;
+    margin: 0;  
+    padding: 0;
+    font-family: 'Pokemon Solid', sans-serif;
+                                                    
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: ;
+    font-size: 1.2 rem;
+    min-height: 100%;
+}
+
+.grid-container > * {
+    text-align: center;
+}
+
+
+
+.header {
+    grid-area: header;    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.namepokemon {
+    grid-area: namepokemon;    
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    font-size: larger;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: x-large
+}
+
+.img {
+    grid-area: img;
+    
+}
+
+.tipo {
+    grid-area: tipo;
+    
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-transform: capitalize;
+    font-size: x-large
+}
+
+.tipo .poke-types{
+    grid-area: tipo;    
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: x-large;
+    background-color: darkgrey;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.skill {
+    grid-area: skill;  
+}
+
+.skill .poke-abilities{
+    grid-area: skill;    
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-transform: capitalize;
+    font-size: xx-large;
+    
+}
+
+.statcontainer{
+    grid-area: statscon;
+}
+
+.stats{
+    text-transform: capitalize;
+    text-align: left;
+    padding-left: 20%;
+    font-size: xx-large;
+}
+
+.statsnumber{
+    text-align: left;
+    padding-left: 20%;
+    font-size: xx-large
+}
+
+.footer {
+    grid-area: footer;
+    
+}
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+        "header header"
+        "namepokemon namepokemon"
+        "img img"
+        "tipo tipo"
+        "skill skill"
+        "statstext statnumber"     
+        "footer footer";
+}
+ 
+@media screen and (min-width: 600px){
+    .grid-container { 
+         grid-template-areas: 
+            "header header"
+            "namepokemon namepokemon"
+            "img img"
+            "tipo tipo"
+            "skill skill"
+            "statstext statnumber"
+            "footer footer";     
+            
+    }       
+}
+
+@media screen and (min-width: 900px){
+    .grid-container {
+        padding: 10px;
+        display: grid;
+        gap: 10px;
+        grid-template-areas: 
+            "header header header"
+            "namepokemon tipo tipo"
+            "skill skill skill"
+            "img statstext statnumber"
+            "footer footer footer";
+    }       
+}
